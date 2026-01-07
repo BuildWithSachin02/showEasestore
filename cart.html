@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Cart | ShopEase</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="cart-navbar">
+  <span class="logo">ShopEase</span>
+  <a href="index.html" class="back-btn">← Continue Shopping</a>
+</header>
+
+<!-- ================= CART SECTION ================= -->
+<section class="cart-section">
+
+  <h1 class="cart-title">Your Shopping Cart</h1>
+
+  <div class="cart-container">
+
+    <!-- ========== LEFT : CART ITEMS ========== -->
+    <div id="cart-items" class="cart-items">
+      
+      <!-- SINGLE ITEM (JS se repeat hoga)
+      
+      <div class="cart-item">
+        <img src="https://via.placeholder.com/300x200" alt="product">
+
+        <div class="item-details">
+          <h3>Product Title</h3>
+          <p>Brand Name</p>
+        </div>
+
+        <div class="item-price">
+          <div class="quantity-control">
+            <button class="qty-btn">−</button>
+            <span class="qty">1</span>
+            <button class="qty-btn">+</button>
+          </div>
+
+          <p class="price">$99.99</p>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div> ---> 
+      
+
+    </div>
+
+    <!-- ========== RIGHT : SUMMARY ========== -->
+    <div id="cart-summary" class="cart-summary">
+
+      <h2>Order Summary</h2>
+
+      <div class="summary-row">
+        <span>Total Items</span>
+        <span id="total-items">0</span>
+      </div>
+
+      <div class="summary-row">
+        <span>Total Price</span>
+        <span id="total-price">$0</span>
+      </div>
+
+      <button class="checkout-btn">
+        Proceed to Checkout
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+<script src="cart.js"></script>
+</body>
+</html>
