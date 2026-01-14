@@ -1,4 +1,4 @@
-# showEasestore-
+# showEasestore
 
 # ShopEase - E-Commerce Platform--
 
