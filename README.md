@@ -1,6 +1,6 @@
 # showEasestore
 
-# ShopEase - E-Commerce Platform--
+# ShopEase - E-Commerce Platform
 
 A modern, fully responsive e-commerce platform built with vanilla HTML, CSS, and JavaScript. This is an **educational project** showcasing API integration, DOM manipulation, and localStorage functionality.
 
